@@ -1,0 +1,24 @@
+{
+  "name": "gt-fe-01",
+  "version": "1.0.0",
+  "description": "gt-fe-01",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon",
+    "jest": "./node_modules/.bin/jest",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "test:coveragereport": "jest --coverage && open coverage/lcov-report/index.html",
+    "lint": "./node_modules/.bin/eslint src",
+    "lint:fix": "./node_modules/.bin/eslint src --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-node": "^4.0.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
+  }
+}
